@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-color: yellow;
+    
+}
+.boxes{
+    justify-content: center;
+    display: flex;
+}
+.a{
+    display: flex;
+    
+    
+}
+
+.bo1{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+   animation-name: bo1;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo1{
+    0% {
+        transform: skewX(20deg);
+    }
+
+    50% {
+        transform: skewX(-20deg);
+    }
+
+    100% {
+        transform: skewX(20deg);
+    }
+}
+
+.bo2{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: bo1;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo1{
+    0% {
+        transform: skewX(20deg);
+    }
+
+    50% {
+        transform: skewX(-20deg);
+    }
+
+    100% {
+        transform: skewX(20deg);
+    }
+}
+
+.bo3{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: bo1;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo1{
+    0% {
+        transform: skewX(20deg);
+    }
+
+    50% {
+        transform: skewX(-20deg);
+    }
+
+    100% {
+        transform: skewX(20deg);
+    }
+}
+
+.b{
+    display: flex;
+    
+}
+
+.bo4{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+   animation-name: bo4;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo4{
+    0% {
+        transform: skewY(20deg);
+    }
+
+    50% {
+        transform: skewY(-20deg);
+    }
+
+    100% {
+        transform: skewY(20deg);
+    }
+}
+
+.bo5{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: bo4;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo4{
+    0% {
+        transform: skewY(20deg);
+    }
+
+    50% {
+        transform: skewY(-20deg);
+    }
+
+    100% {
+        transform: skewY(20deg);
+    }
+}
+
+.bo6{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: bo4;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    
+
+}
+
+@keyframes bo4{
+    0% {
+        transform: skewY(20deg);
+    }
+
+    50% {
+        transform: skewY(-20deg);
+    }
+
+    100% {
+        transform: skewY(20deg);
+    }
+}
+
+.c{
+    display: flex;
+    
+}
+
+.bo7{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+   animation-name: bo7;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo7{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bo8{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: bo7;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo7{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bo9{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: bo7;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo7{
+    0% {
+        transform: rotate(0deg);
+    }
+
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.d{
+    display: flex;
+    
+}
+
+.bo10{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+   animation-name: bo8;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo8{
+    0% {
+        transform: scaleY(1.0);
+    }
+    50% {
+        transform: scaleY(0.35);
+    }
+    100% {
+        transform: scaleY(1.0);
+    }
+}
+
+.bo11{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: bo9;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo9{
+    0% {
+        transform: scaleX(1.0);
+    }
+    50% {
+        transform: scaleX(0.35);
+    }
+    100% {
+        transform: scaleX(1.0);
+    }
+}
+
+.bo12{
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation-name: bo10;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+
+}
+
+@keyframes bo10{
+    0% {
+        transform: rotate(90deg);
+    }
+
+   
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+h2{
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
